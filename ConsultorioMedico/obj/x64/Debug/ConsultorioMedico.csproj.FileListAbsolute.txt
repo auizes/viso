@@ -1,0 +1,40 @@
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe.config
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.pdb
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.AssemblyReference.cache
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmAgendas.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmConsulta.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmConvenios.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmEspecialidades.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmExames.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmLogin.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmMedicos.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmMenuPrincipal.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmPacientes.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmPesquisar.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmSplash.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.Properties.Resources.resources
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.GenerateResource.cache
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.pdb
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe.config
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\bin\x64\Debug\ConsultorioMedico.pdb
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.AssemblyReference.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmAgendas.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmConsulta.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmConvenios.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmEspecialidades.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmExames.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmLogin.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmMedicos.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmMenuPrincipal.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmPacientes.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmPesquisar.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.frmSplash.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.Properties.Resources.resources
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.GenerateResource.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.exe
+C:\Users\gustavo.ssilva88\Documents\Visual Studio 2019\ProjetoSistemaTI106\EmpresaABC\ConsultorioMedico\obj\x64\Debug\ConsultorioMedico.pdb
