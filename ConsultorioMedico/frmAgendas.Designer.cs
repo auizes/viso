@@ -36,6 +36,8 @@ namespace ConsultorioMedico
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnTestarconecxao = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnlConsulta.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,11 +114,32 @@ namespace ConsultorioMedico
             this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastrar.UseVisualStyleBackColor = true;
             // 
+            // btnTestarconecxao
+            // 
+            this.btnTestarconecxao.Location = new System.Drawing.Point(236, 148);
+            this.btnTestarconecxao.Name = "btnTestarconecxao";
+            this.btnTestarconecxao.Size = new System.Drawing.Size(289, 113);
+            this.btnTestarconecxao.TabIndex = 3;
+            this.btnTestarconecxao.Text = "Testar conecxão";
+            this.btnTestarconecxao.UseVisualStyleBackColor = true;
+            this.btnTestarconecxao.Click += new System.EventHandler(this.btnTestarconecxao_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(606, 62);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 86);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmAgendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTestarconecxao);
             this.Controls.Add(this.pnlConsulta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -138,5 +161,7 @@ namespace ConsultorioMedico
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnTestarconecxao;
+        private System.Windows.Forms.Button button1;
     }
 }

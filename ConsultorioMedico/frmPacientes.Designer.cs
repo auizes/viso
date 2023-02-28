@@ -39,19 +39,23 @@ namespace ConsultorioMedico
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.gpbInfoMedico = new System.Windows.Forms.GroupBox();
+            this.txtComplemento = new System.Windows.Forms.TextBox();
+            this.lblComplemento = new System.Windows.Forms.Label();
+            this.txtNum = new System.Windows.Forms.TextBox();
+            this.lblNum = new System.Windows.Forms.Label();
             this.mskCEP = new System.Windows.Forms.MaskedTextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.mskCPF = new System.Windows.Forms.MaskedTextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblCPF = new System.Windows.Forms.Label();
             this.cbbEstado = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblEstado = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblCidade = new System.Windows.Forms.Label();
             this.txtBairro = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblBairro = new System.Windows.Forms.Label();
+            this.lblCEP = new System.Windows.Forms.Label();
             this.txtEndereco = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblEndereco = new System.Windows.Forms.Label();
             this.mskTelefone = new System.Windows.Forms.MaskedTextBox();
             this.lblTelefon = new System.Windows.Forms.Label();
             this.lblCRM = new System.Windows.Forms.Label();
@@ -59,7 +63,6 @@ namespace ConsultorioMedico
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.btnCarregaendereco = new System.Windows.Forms.Button();
             this.pnlConsulta.SuspendLayout();
             this.gpbInfoMedico.SuspendLayout();
             this.SuspendLayout();
@@ -76,7 +79,7 @@ namespace ConsultorioMedico
             this.pnlConsulta.Location = new System.Drawing.Point(2, 485);
             this.pnlConsulta.Name = "pnlConsulta";
             this.pnlConsulta.Size = new System.Drawing.Size(778, 72);
-            this.pnlConsulta.TabIndex = 2;
+            this.pnlConsulta.TabIndex = 13;
             // 
             // btnLimpar
             // 
@@ -84,7 +87,7 @@ namespace ConsultorioMedico
             this.btnLimpar.Location = new System.Drawing.Point(554, 17);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(96, 43);
-            this.btnLimpar.TabIndex = 21;
+            this.btnLimpar.TabIndex = 19;
             this.btnLimpar.Text = "&Limpar";
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -97,7 +100,7 @@ namespace ConsultorioMedico
             this.btnNovo.Location = new System.Drawing.Point(7, 17);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(96, 43);
-            this.btnNovo.TabIndex = 16;
+            this.btnNovo.TabIndex = 14;
             this.btnNovo.Text = "&Novo";
             this.btnNovo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnNovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -110,7 +113,7 @@ namespace ConsultorioMedico
             this.btnVoltar.Location = new System.Drawing.Point(666, 17);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(96, 43);
-            this.btnVoltar.TabIndex = 22;
+            this.btnVoltar.TabIndex = 20;
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -123,11 +126,12 @@ namespace ConsultorioMedico
             this.btnPesquisar.Location = new System.Drawing.Point(439, 17);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(96, 43);
-            this.btnPesquisar.TabIndex = 20;
+            this.btnPesquisar.TabIndex = 18;
             this.btnPesquisar.Text = "&Pesquisar";
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnExcluir
             // 
@@ -135,7 +139,7 @@ namespace ConsultorioMedico
             this.btnExcluir.Location = new System.Drawing.Point(327, 17);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(96, 43);
-            this.btnExcluir.TabIndex = 19;
+            this.btnExcluir.TabIndex = 17;
             this.btnExcluir.Text = "E&xcluir";
             this.btnExcluir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExcluir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -147,7 +151,7 @@ namespace ConsultorioMedico
             this.btnAlterar.Location = new System.Drawing.Point(218, 17);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(96, 43);
-            this.btnAlterar.TabIndex = 18;
+            this.btnAlterar.TabIndex = 16;
             this.btnAlterar.Text = "&Alterar";
             this.btnAlterar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAlterar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -159,7 +163,7 @@ namespace ConsultorioMedico
             this.btnCadastrar.Location = new System.Drawing.Point(114, 17);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(96, 43);
-            this.btnCadastrar.TabIndex = 17;
+            this.btnCadastrar.TabIndex = 15;
             this.btnCadastrar.Text = "&Cadastrar";
             this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -168,20 +172,23 @@ namespace ConsultorioMedico
             // 
             // gpbInfoMedico
             // 
-            this.gpbInfoMedico.Controls.Add(this.btnCarregaendereco);
+            this.gpbInfoMedico.Controls.Add(this.txtComplemento);
+            this.gpbInfoMedico.Controls.Add(this.lblComplemento);
+            this.gpbInfoMedico.Controls.Add(this.txtNum);
+            this.gpbInfoMedico.Controls.Add(this.lblNum);
             this.gpbInfoMedico.Controls.Add(this.mskCEP);
             this.gpbInfoMedico.Controls.Add(this.txtCodigo);
             this.gpbInfoMedico.Controls.Add(this.mskCPF);
-            this.gpbInfoMedico.Controls.Add(this.label6);
+            this.gpbInfoMedico.Controls.Add(this.lblCPF);
             this.gpbInfoMedico.Controls.Add(this.cbbEstado);
-            this.gpbInfoMedico.Controls.Add(this.label5);
+            this.gpbInfoMedico.Controls.Add(this.lblEstado);
             this.gpbInfoMedico.Controls.Add(this.txtCidade);
-            this.gpbInfoMedico.Controls.Add(this.label4);
+            this.gpbInfoMedico.Controls.Add(this.lblCidade);
             this.gpbInfoMedico.Controls.Add(this.txtBairro);
-            this.gpbInfoMedico.Controls.Add(this.label3);
-            this.gpbInfoMedico.Controls.Add(this.label2);
+            this.gpbInfoMedico.Controls.Add(this.lblBairro);
+            this.gpbInfoMedico.Controls.Add(this.lblCEP);
             this.gpbInfoMedico.Controls.Add(this.txtEndereco);
-            this.gpbInfoMedico.Controls.Add(this.label1);
+            this.gpbInfoMedico.Controls.Add(this.lblEndereco);
             this.gpbInfoMedico.Controls.Add(this.mskTelefone);
             this.gpbInfoMedico.Controls.Add(this.lblTelefon);
             this.gpbInfoMedico.Controls.Add(this.lblCRM);
@@ -197,14 +204,51 @@ namespace ConsultorioMedico
             this.gpbInfoMedico.TabStop = false;
             this.gpbInfoMedico.Text = "Informações do Paciente";
             // 
+            // txtComplemento
+            // 
+            this.txtComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComplemento.Location = new System.Drawing.Point(37, 275);
+            this.txtComplemento.MaxLength = 50;
+            this.txtComplemento.Name = "txtComplemento";
+            this.txtComplemento.Size = new System.Drawing.Size(157, 26);
+            this.txtComplemento.TabIndex = 9;
+            // 
+            // lblComplemento
+            // 
+            this.lblComplemento.AutoSize = true;
+            this.lblComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComplemento.Location = new System.Drawing.Point(37, 251);
+            this.lblComplemento.Name = "lblComplemento";
+            this.lblComplemento.Size = new System.Drawing.Size(108, 20);
+            this.lblComplemento.TabIndex = 29;
+            this.lblComplemento.Text = "Complemento";
+            // 
+            // txtNum
+            // 
+            this.txtNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNum.Location = new System.Drawing.Point(492, 206);
+            this.txtNum.MaxLength = 10;
+            this.txtNum.Name = "txtNum";
+            this.txtNum.Size = new System.Drawing.Size(91, 26);
+            this.txtNum.TabIndex = 7;
+            // 
+            // lblNum
+            // 
+            this.lblNum.AutoSize = true;
+            this.lblNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum.Location = new System.Drawing.Point(492, 182);
+            this.lblNum.Name = "lblNum";
+            this.lblNum.Size = new System.Drawing.Size(65, 20);
+            this.lblNum.TabIndex = 27;
+            this.lblNum.Text = "Número";
+            // 
             // mskCEP
             // 
-            this.mskCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mskCEP.Location = new System.Drawing.Point(608, 206);
-            this.mskCEP.Mask = "00000-000";
+            this.mskCEP.Mask = "00000000";
             this.mskCEP.Name = "mskCEP";
             this.mskCEP.Size = new System.Drawing.Size(91, 26);
-            this.mskCEP.TabIndex = 12;
+            this.mskCEP.TabIndex = 8;
             this.mskCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCEP_KeyDown);
             // 
             // txtCodigo
@@ -224,16 +268,17 @@ namespace ConsultorioMedico
             this.mskCPF.Name = "mskCPF";
             this.mskCPF.Size = new System.Drawing.Size(122, 26);
             this.mskCPF.TabIndex = 5;
+            this.mskCPF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCPF_KeyDown);
             // 
-            // label6
+            // lblCPF
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(577, 113);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 20);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "CPF";
+            this.lblCPF.AutoSize = true;
+            this.lblCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCPF.Location = new System.Drawing.Point(577, 113);
+            this.lblCPF.Name = "lblCPF";
+            this.lblCPF.Size = new System.Drawing.Size(40, 20);
+            this.lblCPF.TabIndex = 23;
+            this.lblCPF.Text = "CPF";
             // 
             // cbbEstado
             // 
@@ -241,65 +286,65 @@ namespace ConsultorioMedico
             this.cbbEstado.Location = new System.Drawing.Point(37, 342);
             this.cbbEstado.Name = "cbbEstado";
             this.cbbEstado.Size = new System.Drawing.Size(178, 28);
-            this.cbbEstado.TabIndex = 15;
+            this.cbbEstado.TabIndex = 12;
             // 
-            // label5
+            // lblEstado
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(37, 319);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 20);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Estado";
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstado.Location = new System.Drawing.Point(37, 319);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(60, 20);
+            this.lblEstado.TabIndex = 20;
+            this.lblEstado.Text = "Estado";
             // 
             // txtCidade
             // 
             this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCidade.Location = new System.Drawing.Point(357, 274);
+            this.txtCidade.Location = new System.Drawing.Point(474, 275);
             this.txtCidade.MaxLength = 50;
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(342, 26);
-            this.txtCidade.TabIndex = 14;
+            this.txtCidade.Size = new System.Drawing.Size(226, 26);
+            this.txtCidade.TabIndex = 11;
             // 
-            // label4
+            // lblCidade
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(357, 250);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 20);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Cidade";
+            this.lblCidade.AutoSize = true;
+            this.lblCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCidade.Location = new System.Drawing.Point(474, 251);
+            this.lblCidade.Name = "lblCidade";
+            this.lblCidade.Size = new System.Drawing.Size(59, 20);
+            this.lblCidade.TabIndex = 18;
+            this.lblCidade.Text = "Cidade";
             // 
             // txtBairro
             // 
             this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBairro.Location = new System.Drawing.Point(37, 274);
+            this.txtBairro.Location = new System.Drawing.Point(212, 275);
             this.txtBairro.MaxLength = 50;
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(304, 26);
-            this.txtBairro.TabIndex = 13;
+            this.txtBairro.Size = new System.Drawing.Size(249, 26);
+            this.txtBairro.TabIndex = 10;
             // 
-            // label3
+            // lblBairro
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 250);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Bairro";
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBairro.Location = new System.Drawing.Point(212, 251);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(51, 20);
+            this.lblBairro.TabIndex = 16;
+            this.lblBairro.Text = "Bairro";
             // 
-            // label2
+            // lblCEP
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(608, 182);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 20);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "CEP";
+            this.lblCEP.AutoSize = true;
+            this.lblCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCEP.Location = new System.Drawing.Point(608, 182);
+            this.lblCEP.Name = "lblCEP";
+            this.lblCEP.Size = new System.Drawing.Size(41, 20);
+            this.lblCEP.TabIndex = 14;
+            this.lblCEP.Text = "CEP";
             // 
             // txtEndereco
             // 
@@ -307,18 +352,18 @@ namespace ConsultorioMedico
             this.txtEndereco.Location = new System.Drawing.Point(37, 206);
             this.txtEndereco.MaxLength = 100;
             this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(552, 26);
-            this.txtEndereco.TabIndex = 11;
+            this.txtEndereco.Size = new System.Drawing.Size(424, 26);
+            this.txtEndereco.TabIndex = 6;
             // 
-            // label1
+            // lblEndereco
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 182);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 20);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Endereço";
+            this.lblEndereco.AutoSize = true;
+            this.lblEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEndereco.Location = new System.Drawing.Point(37, 182);
+            this.lblEndereco.Name = "lblEndereco";
+            this.lblEndereco.Size = new System.Drawing.Size(78, 20);
+            this.lblEndereco.TabIndex = 12;
+            this.lblEndereco.Text = "Endereço";
             // 
             // mskTelefone
             // 
@@ -366,6 +411,7 @@ namespace ConsultorioMedico
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(358, 26);
             this.txtEmail.TabIndex = 3;
+            this.txtEmail.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtEmail_KeyDown);
             // 
             // lblNome
             // 
@@ -386,16 +432,6 @@ namespace ConsultorioMedico
             this.lblEmail.Size = new System.Drawing.Size(53, 20);
             this.lblEmail.TabIndex = 8;
             this.lblEmail.Text = "E-mail";
-            // 
-            // btnCarregaendereco
-            // 
-            this.btnCarregaendereco.Location = new System.Drawing.Point(419, 365);
-            this.btnCarregaendereco.Name = "btnCarregaendereco";
-            this.btnCarregaendereco.Size = new System.Drawing.Size(170, 52);
-            this.btnCarregaendereco.TabIndex = 24;
-            this.btnCarregaendereco.Text = "carrega endereço";
-            this.btnCarregaendereco.UseVisualStyleBackColor = true;
-            this.btnCarregaendereco.Click += new System.EventHandler(this.btnCarregaendereco_Click);
             // 
             // frmPacientes
             // 
@@ -435,20 +471,23 @@ namespace ConsultorioMedico
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txtCidade;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblCidade;
         private System.Windows.Forms.TextBox txtBairro;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblBairro;
+        private System.Windows.Forms.Label lblCEP;
         private System.Windows.Forms.TextBox txtEndereco;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblEndereco;
         private System.Windows.Forms.MaskedTextBox mskCPF;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblCPF;
         private System.Windows.Forms.ComboBox cbbEstado;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.MaskedTextBox mskCEP;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnNovo;
-        private System.Windows.Forms.Button btnCarregaendereco;
+        private System.Windows.Forms.MaskedTextBox mskCEP;
+        private System.Windows.Forms.TextBox txtComplemento;
+        private System.Windows.Forms.Label lblComplemento;
+        private System.Windows.Forms.TextBox txtNum;
+        private System.Windows.Forms.Label lblNum;
     }
 }

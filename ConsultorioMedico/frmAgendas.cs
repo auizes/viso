@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+//importando a classe de conexão do mysql
+using MySql.Data.MySqlClient;
 
 namespace ConsultorioMedico
 {
@@ -40,6 +42,28 @@ namespace ConsultorioMedico
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
 
+        }
+
+        private void btnTestarconecxao_Click(object sender, EventArgs e)
+        {
+            //instânciando a classe de conexao para o banco de dados
+            MySqlConnection con = new MySqlConnection();
+            //inserir a conexao com o banco de dados 
+            con.ConnectionString = "Server=localhost;Port=3306;Database=dbClinicaMedica;Uid=senac;Pwd=123456";
+
+
+            try { 
+            //abrir o banco de dados 
+            con.Open();
+            MessageBox.Show("banco de dados aberto");
+            }
+            catch (MySqlException)
+            {
+                MessageBox.Show("Banco de dados nao conectado.");
+            }
+            //fechar o banco de dados 
+            con.Close();
+            MessageBox.Show("banco de dados fechado");
         }
     }
 }
